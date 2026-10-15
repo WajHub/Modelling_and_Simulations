@@ -1,0 +1,51 @@
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# =========================
+# Visual Studio Code
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+*.vsix
+
+# =========================
+# MATLAB & Simulink
+# =========================
+# Autosave and backup files
+*.asv
+*.m~
+*.autosave
+*.~*
+
+# Simulink cache and generated code
+*.slxc
+slprj/
+codegen/
+*_ert_rtw/
+
+# MEX and binary files
+*.mex*
+*.p
+
+# Figure and crash logs
+*.fig.bak
+matlab_crash_dump.*
+hs_err_pid*
+
+# MATLAB Project cache
+resources/project/
+.SimulinkProject/
+_SimulinkProject/
